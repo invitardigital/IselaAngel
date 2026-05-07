@@ -45,7 +45,7 @@
     <div class="protector bg_black bg_opacity_70">
         <center class="protector-centrado bg_white p_20 rounded box_shadow_dark" id="sello">
             <h3 class="font_paris m_0">Bienvenidos a la invitación de</h3>
-            <h3 class="font_paris m_0 fspx_30">Valeria</h3>
+            <h3 class="font_paris m_0 fspx_30">Isela y Angel</h3>
         </center>
     </div>
 
@@ -67,18 +67,24 @@
             </div>
 
 
+            <div class="pst_absolute w_100 hpx_150" id="play" style=" top:7%;  "></div>
+
+
 
             
 
 
 
-            <!--<div class="pst_absolute w_100" style="top: 7%">
+            <div class="pst_absolute w_100" style="top: 22.5%">
                 <center>
                     <div class="text-center m_0">
                         <div id="countdown" class="color_white fspx_20 font_lo"></div>
                     </div><br>
                 </center>
             </div>
+
+
+            <!--
             
             
             <div class="pst_absolute w_100" style="bottom: 34%">
@@ -131,20 +137,34 @@
             </div>
 
 
-            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 3%;"
-            href="https://api.whatsapp.com/send?phone=+5215583878916&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"></a>
-            
+
             
             -->
 
             
 
-    
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" top: 47%;  "
+            href="https://maps.app.goo.gl/JpWNZ6Naoap9LGFu5" target="_blank"></a>
+            
+
+            
+
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" top: 58%;  "
+            href="https://maps.app.goo.gl/spu1jigLtSBJpq2j6" target="_blank"></a>
+            
+
+
+
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 4%;  "
+            href="https://api.whatsapp.com/send?phone=+5217292326734&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"></a>
+            
         
+
+
 
   
         <footer class="bd-footer">
-            <br>
+        
             <br>
             <div class="container-fluid">
                 <div class="row align-items-center py-4 ">
@@ -231,8 +251,10 @@ audio.loop = true;
 audio.volume = 0.5;
 
 
-/*
-var targetDate = new Date("Jul 31, 2026 20:00:00").getTime();
+
+
+
+var targetDate = new Date("Aug 22, 2026 20:00:00").getTime();
 var countdownTimer = countdown(
     targetDate,
     function(ts) {
@@ -259,7 +281,8 @@ var countdownTimer = countdown(
     },
     countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
 );
-*/
+
+
 
 
 
@@ -413,7 +436,7 @@ const swiper = new Swiper('.swiper', {
 
 document.getElementById("sello").addEventListener("click", function() {
 
-    //audio.play();
+    audio.play();
 
     $('body').css('overflow-y', 'auto');
     document.querySelector(".protector").style.display = "none";
@@ -421,9 +444,9 @@ document.getElementById("sello").addEventListener("click", function() {
     $('#sound').find('img').attr('src', 'sound.svg');
     muted = !muted;
 
-    //$(window).scrollTop(0);
+    $(window).scrollTop(0);
 });
-//$(window).scrollTop(0);
+$(window).scrollTop(0);
 
 
 
